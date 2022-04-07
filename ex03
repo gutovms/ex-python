@@ -1,0 +1,8 @@
+sx = input('Digite M para masculino e F para feminino: ')
+
+if(sx == 'm' or sx == 'M'):
+    print("Sexo Masculino")
+elif(sx == 'f' or sx == 'F'):
+    print('Sexo Feminino')
+else:
+    print('Sexo Inválido')
