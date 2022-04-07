@@ -4,3 +4,4 @@ if(ltr == 'a' or ltr == 'A' or ltr == 'e' or ltr == 'E' or ltr == 'i' or ltr == 
     print('A letra é uma vogal')
 else:
     print('A letra é uma consoante')
+.
