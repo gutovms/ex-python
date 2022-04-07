@@ -1,0 +1,6 @@
+ltr =  input('Digite uma letra: ')
+
+if(ltr == 'a' or ltr == 'A' or ltr == 'e' or ltr == 'E' or ltr == 'i' or ltr == "I" or ltr == "o" or ltr == "O" or ltr == "u" or ltr == "U"):
+    print('A letra é uma vogal')
+else:
+    print('A letra é uma consoante')
