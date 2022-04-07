@@ -4,4 +4,4 @@ qnt = input('Informe a qt de números: ')
 for n in range(0,int(qnt)): 
     lista.append(int(input('Digite o número: ')))
 
-print ('Maior número da lista: ', max(lista))   
+print ('Maior número da lista: ', max(lista))
