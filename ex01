@@ -1,0 +1,19 @@
+lista = []
+qtn = input("informe a qt de numeros: ")
+
+for n in range(0,int(qtn)): 
+    lista.append(int(input("Digite o número: ")))
+
+print ("Maior número da lista: ", max(lista))      
+
+#outra forma de fazer
+
+n1 = int(input('Informe um número: '))
+n2 = int(input('Informe outro número: '))
+
+if(n1 > n2):
+    print(f'{n1} eh maior que {n2}')
+elif(n1 < n2):
+    print(f'{n2} eh maior que {n1}')
+else:
+    print('Os números são iguais')
