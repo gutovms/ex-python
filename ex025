@@ -1,0 +1,33 @@
+print('''Responda as perguntas.
+Responda S para SIM e N para NÃO''')
+print()
+
+telefonou_vitima = input('Telefonou para a vítima?: ')
+estv_local_crime = input('Esteve no local do crime?: ')
+mora_perto_vitima = input('Mora perto da vítima?: ')
+devia_vitima = input('Devia para a vítima?: ')
+trab_vitima = input('Já trabalhou com a vítima?: ')
+classificacao = 0
+
+if telefonou_vitima == 'S' or telefonou_vitima == 's':
+    classificacao = classificacao + 1
+if estv_local_crime == 'S' or estv_local_crime == 's':
+    classificacao = classificacao + 1
+if mora_perto_vitima == 'S' or mora_perto_vitima == 's':
+    classificacao = classificacao + 1
+if devia_vitima == 'S' or devia_vitima == 's':
+    classificacao = classificacao + 1
+if trab_vitima == 'S' or devia_vitima == 's':
+    classificacao = classificacao + 1
+
+
+print(f'Sua classificação é {classificacao}')
+
+if classificacao == 2:
+    print('Você é Suspeito.')
+elif classificacao == 3 or classificacao == 4:
+    print('Você é Cúmplice.')
+elif classificacao == 5:
+    print('Você é Assassino.')
+else:
+    print('Você é inocente.')
